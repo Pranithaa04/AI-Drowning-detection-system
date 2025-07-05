@@ -14,8 +14,8 @@ This project is an intelligent, real-time drowning detection system that uses co
 **Dataset**
 
 The dataset consists of images labeled into 3 classes:
-- `Drowning`
-- `Swimming`
-- `Person Out of Water`
+- Drowning
+- Swimming
+- Person Out of Water
 
 It is organized into `train`, `valid`, and `test` directories. All images were resized to 64×64 for training.
