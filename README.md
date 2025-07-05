@@ -10,3 +10,12 @@ This project is an intelligent, real-time drowning detection system that uses co
 - Alert system: SMS, Email, and Siren (hardware-compatible)
 - Streamlit-based web interface for image upload and prediction
 - Model comparison and evaluation with accuracy reports
+
+**Dataset**
+
+The dataset consists of images labeled into 3 classes:
+- `Drowning`
+- `Swimming`
+- `Person Out of Water`
+
+It is organized into `train`, `valid`, and `test` directories. All images were resized to 64×64 for training.
